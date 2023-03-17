@@ -1,9 +1,9 @@
 package enums;
 
 /**
- * Utilizo enumeraciones o listado específico,
- * s permite representar conjuntos de constantes con un nombre en el lenguaje de programación.
+ * Listado específico de los tipos de transporte existentes
+ * (representación de constantes con nombres)
  */
 public enum TipoTransporte {
-    Camion, Bicicleta;
+    Camion, Bicicleta, Barco;
 }

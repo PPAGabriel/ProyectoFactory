@@ -13,9 +13,9 @@ public interface ITransporte {
 
     /**
      *
-     * @return tipoEmbalajae
+     * @return tipoEmbalaje
      */
-    Integer tipoEmbalaje(Integer cp, Float dimencionX, Float dimencionY, Float dimencionZ, Float peso);
+    Integer tipoEmbalaje(Integer cp, Float dimensionX, Float dimensionY, Float dimensionZ, Float peso);
 
 
 }

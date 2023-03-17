@@ -5,8 +5,8 @@ import enums.TipoTransporte;
 public class FactorySencilla {
     /**
      *
-     * @param type
-     * @return
+     * @param type, opción escogida por el usuario
+     * @return el tipo de transporte idóneo para la acción
      * @throws Exception
      */
     public static ITransporte getProducto(TipoTransporte type) {
@@ -17,6 +17,9 @@ public class FactorySencilla {
 
             case Camion:
                 return new Camion();
+
+            case Barco:
+                return new Barco();
 
             default:
                 return null;
